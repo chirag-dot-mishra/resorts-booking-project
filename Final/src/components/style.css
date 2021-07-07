@@ -1,0 +1,81 @@
+*
+{margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+ background-color: rgb(209, 204, 204);
+ background-position: center;
+ 
+}
+
+.App{
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 20px;
+  width: 600px;
+  height: 900px;
+ box-sizing: border-box;
+ position: absolute ;
+ border-radius: 2px;
+ background: rgba(0,0,0,0.5);
+ box-shadow: 0 2px 2px rgba(0,0,0,0.5);
+ text-align: center;
+}
+.App.Registration{
+  position: relative;
+  background: #fff;
+  padding: 20px 40px 40px;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 1.5px;
+  box-sizing: border-box;
+  
+  
+}
+.App.Login{
+  position: relative;
+  background: #fff;
+  padding: 20px 40px 40px;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 1.5px;
+}
+.App.head{
+  display: none;
+  padding: 10px 20px;
+  font-family: cursive;
+}
+.txt-typ {
+  height: 2em;
+  width: 15em;
+  position: relative;
+  background-color: transparent;
+  font-size: 15px;
+  color:rgba(0,0,0,0.5);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.lab-typ{
+  color:rgba(0,0,0,0.5);
+  cursor: pointer;
+  font-weight: 1000;
+}
+.head{
+  margin-top: 2%;
+  color:rgba(0,0,0,0.5);
+  padding: 10px;
+}
+.but{
+  border: 0;
+  font-size: 16px;
+  border-radius: 30px;
+  line-height: 1;
+  padding: 16px 30px;
+  cursor: pointer;
+  margin: 20px;
+  background-color: rgba(0,0,0,0.5);
+}
+.but:hover,.but:focus{
+  background: rgb(116, 112, 112);
+}
